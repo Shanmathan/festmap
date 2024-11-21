@@ -6,7 +6,7 @@ import ImportantPlaces from "@components/ImportantPlace";
 
 const Slideshow = () => {
   const [isPaused, setIsPaused] = useState(false);
-  const [currentSlide, setCurrentSlide] = useState(0); // Add this line
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const properties = {
     duration: 15000,
@@ -15,10 +15,9 @@ const Slideshow = () => {
     indicators: true,
     arrows: false,
     autoplay: !isPaused,
-    onChange: (oldIndex: any, newIndex: any) => {
-      // Add this line
+    onChange: (oldIndex: number, newIndex: number) => {
       console.log(oldIndex);
-      setCurrentSlide(newIndex); // And this line
+      setCurrentSlide(newIndex);
     },
   };
 
@@ -28,9 +27,7 @@ const Slideshow = () => {
     <div onClick={() => setIsPaused(!isPaused)}>
       <Slide {...properties}>
         {SlideshowComponents.map((each, index) => (
-          <motion.div
-            key={`${index}-${currentSlide}`} // Change this line
-          >
+          <motion.div key={`${index}-${currentSlide}`} className="">
             {each}
           </motion.div>
         ))}

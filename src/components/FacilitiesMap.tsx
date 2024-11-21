@@ -60,7 +60,7 @@ function FacilitiesMap({ name }: NameProps) {
           setMarkersData(facilities);
           console.log(filteredDocuments);
         })
-        .catch((err: any) => {
+        .catch((err: unknown) => {
           console.error(err);
         });
     }

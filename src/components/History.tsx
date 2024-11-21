@@ -29,7 +29,7 @@ const History = () => {
       {history.map((history, index) => (
         <motion.div
           key={index}
-          className={`absolute ${history.position} rounded-xl bg-white bg-opacity-50 shadow-lg p-4`}
+          className={`absolute ${history.position} rounded-xl bg-white bg-opacity-50 shadow-lg p-4 md:w-1/2`}
           initial={history.intial}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 2 }}
@@ -41,7 +41,7 @@ const History = () => {
             )
           }
         >
-          <div className="flex items-center ">
+          <div className="flex items-center">
             <img src={history.icon} alt="icon" className="w-6 h-6 mb-2" />
             <h2 className="text-lg font-bold mb-2 ml-2">{history.title}</h2>
           </div>

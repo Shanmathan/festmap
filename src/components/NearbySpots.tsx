@@ -51,7 +51,7 @@ function NearbySpots() {
         setMarkersData(facilities);
         console.log(facilities);
       })
-      .catch((err: any) => {
+      .catch((err: unknown) => {
         console.error(err);
       });
   }, []);

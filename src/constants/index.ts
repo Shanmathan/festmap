@@ -45,16 +45,12 @@ export const navLinks = [
     id: "facilities",
     title: "Facilities",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
 ];
 
 const history = [
   {
     title: "Trade Port",
-    position: "top-[12%] right-2",
+    position: "top-[12%] right-2 md:top-[10%] md:right-10",
     intial: { x: -100, opacity: 0 },
     icon: sunsetLogo,
     description: [
@@ -68,7 +64,7 @@ const history = [
   },
   {
     title: "Incarnation of Lord Jagannath",
-    position: "left-2 top-[40%] translate-y-[-50%]",
+    position: "left-2 top-[40%] translate-y-[-50%] md:left-10 md:top-[35%]",
     intial: { x: 100, opacity: 0 },
     icon: jagannathLogo,
     description: [
@@ -82,7 +78,7 @@ const history = [
   },
   {
     title: "Puri Festival",
-    position: "right-2 top-[70%] translate-y-[-50%]",
+    position: "right-2 top-[70%] translate-y-[-50%] md:right-10 md:top-[65%]",
     intial: { x: -100, opacity: 0 },
     icon: festivalLogo,
     description: [
@@ -99,7 +95,7 @@ const history = [
 const ImportantPlaces = [
   {
     title: "Puri Light House",
-    position: "top-[55%] left-2",
+    position: "top-[55%] left-2 md:top-[50%] md:left-10",
     intial: { x: -100, opacity: 0 },
     icon: lightHouseLogo,
     description: [
@@ -110,7 +106,7 @@ const ImportantPlaces = [
   },
   {
     title: "Jagannath Temple",
-    position: "right-20 top-[15%] translate-y-[-50%]",
+    position: "right-20 top-[15%] translate-y-[-50%] md:right-32 md:top-[10%]",
     intial: { x: 100, opacity: 0 },
     icon: templeLogo,
     description: [
@@ -121,7 +117,7 @@ const ImportantPlaces = [
   },
   {
     title: "Mahatma Gandhi Park",
-    position: "right-2 top-[40%] translate-y-[-50%]",
+    position: "right-2 top-[40%] translate-y-[-50%] md:right-10 md:top-[35%]",
     intial: { x: -100, opacity: 0 },
     icon: parkLogo,
     description: [
@@ -132,7 +128,7 @@ const ImportantPlaces = [
   },
   {
     title: "Puri Golden Beach",
-    position: "right-2 top-[70%] translate-y-[-50%]",
+    position: "right-2 top-[70%] translate-y-[-50%] md:right-10 md:top-[65%]",
     intial: { x: -100, opacity: 0 },
     icon: beachLogo,
     description: [
@@ -142,7 +138,6 @@ const ImportantPlaces = [
     images: [beach1, beach2],
   },
 ];
-
 const Advertisement = [
   {
     title: "Food and Sweets",
