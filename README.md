@@ -116,17 +116,27 @@ In crowded event settings, festmap allows visitors to access real-time data and 
 
 ### Attractions Page 🎉
 
-![Attractions Page Demo](screenshots/attractionspage.png)
-![History Page Demo](screenshots/historypage.png)
+<div style="background-color: white; padding: 10px;">
+  <img src="screenshots/attractionspage.png" alt="Attractions Page Demo" style="width: 100%; max-width: 600px;">
+</div>
+<div style="background-color: white; padding: 10px;">
+  <img src="screenshots/historypage.png" alt="History Page Demo" style="width: 100%; max-width: 600px;">
+</div>
 
 ### Event Map 🏥
 
-![Facilities Navigation Demo](screenshots/facilitiesnavigation.png)
-![Facilities Map Demo](screenshots/eventmap.png)
+<div style="background-color: white; padding: 10px;">
+  <img src="screenshots/facilitiesnavigation.png" alt="Facilities Navigation Demo" style="width: 100%; max-width: 600px;">
+</div>
+<div style="background-color: white; padding: 10px;">
+  <img src="screenshots/eventmap.png" alt="Facilities Map Demo" style="width: 100%; max-width: 600px;">
+</div>
 
 ### Nearby Tourist Spots 🌆
 
-![Nearby Spots Demo](screenshots/nearbytouristspots.png)
+<div style="background-color: white; padding: 10px;">
+  <img src="screenshots/nearbytouristspots.png" alt="Nearby Spots Demo" style="width: 100%; max-width: 600px;">
+</div>
 
 These GIFs show the app’s seamless user experience, from map navigation to nearby tourist spot discovery! 🌐✨
 
