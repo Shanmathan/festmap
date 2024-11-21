@@ -55,7 +55,7 @@ In crowded event settings, UAVs (drones) create a temporary, robust network, all
 
 1. **Clone the repository** 📥:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Shanmathan/festmap.git
    ```
 2. **Navigate to the project directory** 📂:
    ```bash
@@ -66,11 +66,17 @@ In crowded event settings, UAVs (drones) create a temporary, robust network, all
    npm install
    ```
 4. **Configure API keys** 🔑: Add your `Appwrite` and `OpenRouteService` keys in a `.env` file:
-   ```plaintext
-   VITE_APPWRITE_ENDPOINT=<Your Appwrite Endpoint>
-   VITE_APPWRITE_PROJECT=<Your Appwrite Project ID>
-   VITE_OPENROUTESERVICE_KEY=<Your OpenRouteService Key>
-   ```
+
+```plaintext
+  VITE_APPWRITE_ENDPOINT=<Your Appwrite Endpoint>
+  VITE_APPWRITE_PROJECT_ID=<Your Appwrite Project ID>
+  VITE_APPWRITE_FACILITIES_DATABASE_ID=<Your Facilities Database ID>
+  VITE_APPWRITE_FACILITIES_COLLECTION_ID=<Your Facilities Collection ID>
+  VITE_APPWRITE_NEARBYSPOTS_DATABASE_ID=<Your NearbySpots Database ID>
+  VITE_APPWRITE_NEARBYSPOTS_COLLECTION_ID=<Your NearbySpots Collection ID>
+  VITE_OPENROUTESERVICE_API_KEY=<Your OpenRouteService API Key>
+```
+
 5. **Start the development server** 🏃:
    ```bash
    npm start
@@ -80,7 +86,7 @@ In crowded event settings, UAVs (drones) create a temporary, robust network, all
 
 ## 📖 Usage
 
-1. **Launch the app** by navigating to `http://localhost:3000` 🌐.
+1. **Launch the app** by navigating to `http://localhost` 🌐.
 2. **Explore Attractions** 🌅: View and click on markers for details about points of interest.
 3. **Find Facilities** 🏥: Quickly locate essentials like restrooms and water stations.
 4. **Cultural Insights** 🏛️: Read about the area’s history, enriched with visuals and slideshows.
@@ -104,17 +110,23 @@ In crowded event settings, UAVs (drones) create a temporary, robust network, all
 
 ## 📸 Screenshots & Demos
 
+### Flowchart 📊
+
+![Overall FLowchart](screenshots/flowchart.jpg)
+
 ### Attractions Page 🎉
 
-![Attractions Page Demo](screenshots/attractions-page.gif)
+![Attractions Page Demo](screenshots/attractionspage.png)
+![History Page Demo](screenshots/historypage.png)
 
-### Facilities Map 🏥
+### Event Map 🏥
 
-![Facilities Map Demo](screenshots/facilities-map.gif)
+![Facilities Navigation Demo](screenshots/facilitiesnavigation.png)
+![Facilities Map Demo](screenshots/eventmap.png)
 
 ### Nearby Tourist Spots 🌆
 
-![Nearby Spots Demo](screenshots/nearby-spots.gif)
+![Nearby Spots Demo](screenshots/nearbytouristspots.png)
 
 These GIFs show the app’s seamless user experience, from map navigation to nearby tourist spot discovery! 🌐✨
 
