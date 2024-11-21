@@ -17,7 +17,7 @@ function NearbySpots() {
   const [listOfPoints, setListOfPoints] = useState<[number, number][]>([]);
 
   const baseUrl = "https://api.openrouteservice.org/v2/directions/driving-car";
-  const apiKey = "5b3ce3597851110001cf62485846fae8b6944314bac24c3823764c37";
+  const apiKey = import.meta.env.VITE_OPENROUTESERVICE_API_KEY;
 
   async function getRouteUrl(startPoint: string, endPoint: string) {
     const url = `${baseUrl}?api_key=${apiKey}&start=${startPoint}&end=${endPoint}`;
@@ -42,7 +42,10 @@ function NearbySpots() {
 
   useEffect(() => {
     database
-      .listDocuments("65c9d2d07d6c45ae083a", "65c9d2e564bc19410fa3")
+      .listDocuments(
+        import.meta.env.VITE_APPWRITE_NEARBYSPOTS_DATABASE_ID,
+        import.meta.env.VITE_APPWRITE_NEARBYSPOTS_COLLECTION_ID
+      )
       .then((response) => {
         const facilities = response.documents.map((doc) => ({
           name: doc["name"],

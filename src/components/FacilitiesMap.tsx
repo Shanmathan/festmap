@@ -18,7 +18,7 @@ function FacilitiesMap({ name }: NameProps) {
   const [listOfPoints, setListOfPoints] = useState<[number, number][]>([]);
 
   const baseUrl = "https://api.openrouteservice.org/v2/directions/driving-car";
-  const apiKey = "5b3ce3597851110001cf62485846fae8b6944314bac24c3823764c37";
+  const apiKey = import.meta.env.VITE_OPENROUTESERVICE_API_KEY;
 
   async function getRouteUrl(startPoint: string, endPoint: string) {
     const url = `${baseUrl}?api_key=${apiKey}&start=${startPoint}&end=${endPoint}`;
@@ -47,7 +47,10 @@ function FacilitiesMap({ name }: NameProps) {
       return;
     } else {
       database
-        .listDocuments("65c9d2d07d6c45ae083a", "65c9d2da17e0bfb2a85a")
+        .listDocuments(
+          import.meta.env.VITE_APPWRITE_FACILITIES_DATABASE_ID,
+          import.meta.env.VITE_APPWRITE_FACILITIES_COLLECTION_ID
+        )
         .then((response) => {
           const filteredDocuments = response.documents.filter(
             (doc) => doc.name === name
