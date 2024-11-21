@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.8",
+    "@types/node": "^22.9.1",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@types/react-scroll": "^1.8.10",

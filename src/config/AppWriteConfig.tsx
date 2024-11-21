@@ -3,8 +3,8 @@ import { Account, Client, Databases, Storage } from "appwrite";
 const client = new Client();
 
 client
-  .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("65c9d2ab4efa3e9f9a66");
+  .setEndpoint(process.env.REACT_APP_APPWRITE_ENDPOINT as string)
+  .setProject(process.env.REACT_APP_APPWRITE_PROJECT_ID as string);
 
 export const account = new Account(client);
 
