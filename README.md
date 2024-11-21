@@ -1,6 +1,6 @@
 # 🎉 Crowd Management System for Tourist Spots & Festivals 🌍
 
-Welcome to the **Crowd Management System**, designed for bustling tourist spots and lively festivals! 🏖️🎉 This web app integrates **UAV technology** with real-time, interactive mapping and guidance to make every visit safe, seamless, and informative.
+Welcome to the **Festmap - Crowd Management System**, designed for bustling tourist spots and lively festivals! 🏖️🎉 This web app has interactive mapping and guidance to make every visit safe, seamless, and informative. (In this project [Puri Beach](https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/puri-beach.html) was used as sample)
 
 ---
 
@@ -20,7 +20,7 @@ Welcome to the **Crowd Management System**, designed for bustling tourist spots 
 
 ## ✨ Overview
 
-In crowded event settings, UAVs (drones) create a temporary, robust network, allowing visitors to access real-time data and enjoy a guided experience with **interactive maps**, **facilities locators**, and **historical insights**. This project ensures seamless connectivity and navigation even in remote or crowded areas! 🌐💼
+In crowded event settings, festmap allows visitors to access real-time data and enjoy a guided experience with **interactive maps**, **facilities locators**, and **historical insights**. This project ensures seamless connectivity and navigation even in remote or crowded areas! 🌐💼
 
 ---
 
