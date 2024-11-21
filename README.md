@@ -79,7 +79,7 @@ In crowded event settings, festmap allows visitors to access real-time data and 
 
 5. **Start the development server** 🏃:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ---
