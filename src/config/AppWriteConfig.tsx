@@ -3,8 +3,8 @@ import { Account, Client, Databases, Storage } from "appwrite";
 const client = new Client();
 
 client
-  .setEndpoint(process.env.REACT_APP_APPWRITE_ENDPOINT as string)
-  .setProject(process.env.REACT_APP_APPWRITE_PROJECT_ID as string);
+  .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT as string)
+  .setProject(import.meta.env.VITE_APPWRITE_PROJECT_ID as string);
 
 export const account = new Account(client);
 
