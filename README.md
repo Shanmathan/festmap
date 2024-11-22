@@ -1,6 +1,6 @@
 # 🎉 Crowd Management System for Tourist Spots & Festivals 🌍
 
-Welcome to the **Festmap - Crowd Management System**, designed for bustling tourist spots and lively festivals! 🏖️🎉 This web app has interactive mapping and guidance to make every visit safe, seamless, and informative. (In this project [Puri Beach](https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/puri-beach.html) was used as sample)
+Welcome to the **Festmap - Crowd Management System**, designed for crowded tourist spots and lively festivals! 🏖️🎉 This web app has interactive mapping and guidance to make every visit safe, seamless, and informative. (In this project [Puri Beach](https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/puri-beach.html) was used as sample)
 
 ---
 
