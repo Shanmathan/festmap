@@ -152,4 +152,4 @@ Contributions are always welcome! 🎉 Simply fork this repo, make your changes,
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [`LICENSE`](https://mit-license.org/) for more information.
